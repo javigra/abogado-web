@@ -1,0 +1,11 @@
+{
+  "name": "web-abogado",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web estático para abogado/a independiente",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node serve.js",
+    "start": "node build.js && node serve.js"
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" preserveAspectRatio="xMidYMid slice"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ece4d5"/><stop offset="1" stop-color="#c9bda8"/></linearGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+<linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5e5446" stop-opacity="0"/><stop offset="1" stop-color="#5e5446" stop-opacity=".25"/></linearGradient><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.1 0 0 0 0 0.09 0 0 0 0 0.08 0 0 0 0.08 0"/></filter></defs>
+<rect width="1200" height="800" fill="url(#bg)"/>
+<g fill="#fffaf0" fill-opacity=".8" filter="url(#soft)"><polygon points="300,140 450,140 560,310 410,310" /><polygon points="470,140 620,140 730,310 580,310" /><polygon points="300,330 450,330 560,500 410,500" /><polygon points="470,330 620,330 730,500 580,500" /></g>
+<path d="M880 0 C 900 200, 960 420, 1060 800 L1200 800 L1200 0Z" fill="url(#sh)"/>
+<rect y="640" width="1200" height="160" fill="#8b7f6c" fill-opacity=".22"/>
+<rect width="1200" height="800" filter="url(#grain)"/><text x="36" y="764" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#1b2230" fill-opacity=".5">IMAGEN DE EJEMPLO · LUZ NATURAL</text></svg>

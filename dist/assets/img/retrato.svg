@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" preserveAspectRatio="xMidYMid slice"><defs>
+<radialGradient id="bg" cx=".35" cy=".3" r="1"><stop offset="0" stop-color="#46526a"/><stop offset="1" stop-color="#18202e"/></radialGradient>
+<linearGradient id="fig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6b7790"/><stop offset="1" stop-color="#2c3648"/></linearGradient><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.1 0 0 0 0 0.09 0 0 0 0 0.08 0 0 0 0.1 0"/></filter></defs>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<rect x="560" y="0" width="240" height="1000" fill="#000" fill-opacity=".12"/>
+<ellipse cx="400" cy="390" rx="118" ry="142" fill="url(#fig)"/>
+<path d="M120 1000 C 140 760, 280 640, 400 640 C 520 640, 660 760, 680 1000 Z" fill="url(#fig)"/>
+<path d="M352 640 L400 760 L448 640" fill="none" stroke="#c9a86a" stroke-opacity=".35" stroke-width="2"/>
+<rect width="800" height="1000" filter="url(#grain)"/><text x="36" y="964" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#ffffff" fill-opacity=".5">RETRATO PROFESIONAL · SUSTITUIR</text></svg>

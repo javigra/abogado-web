@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" preserveAspectRatio="xMidYMid slice"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3dccf"/><stop offset="1" stop-color="#a99d8a"/></linearGradient>
+<filter id="stone"><feTurbulence type="fractalNoise" baseFrequency=".006 .018" numOctaves="5" seed="7"/><feColorMatrix values="0 0 0 0 .35 0 0 0 0 .31 0 0 0 0 .26 0 0 0 .55 0"/></filter>
+<radialGradient id="light" cx=".2" cy=".15" r=".9"><stop offset="0" stop-color="#fff8ea" stop-opacity=".7"/><stop offset="1" stop-color="#fff8ea" stop-opacity="0"/></radialGradient><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.1 0 0 0 0 0.09 0 0 0 0 0.08 0 0 0 0.1 0"/></filter></defs>
+<rect width="1200" height="800" fill="url(#bg)"/><rect width="1200" height="800" filter="url(#stone)"/>
+<g stroke="#f7f1e6" stroke-opacity=".5" stroke-width="2"><path d="M0 270h1200M0 540h1200M380 0v270M820 0v270M180 270v270M640 270v270M1040 270v270M420 540v260M900 540v260"/></g>
+<rect width="1200" height="800" fill="url(#light)"/><rect width="1200" height="800" filter="url(#grain)"/><text x="36" y="764" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#1b2230" fill-opacity=".5">IMAGEN DE EJEMPLO · PIEDRA</text></svg>
