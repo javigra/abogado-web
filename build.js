@@ -47,11 +47,13 @@ for (const p of pages) {
   fs.writeFileSync(path.join(dir, 'index.html'), layout({ ...p, services }));
 }
 
-// 404 (se sirve desde la raíz: rutas absolutas)
+// 404 (se sirve desde cualquier ruta: rutas absolutas desde BASE_PATH, p. ej. /web-abogado/ en GitHub Pages)
+const BASE = (process.env.BASE_PATH || '/').replace(/\/?$/, '/');
 const nf = legal.noEncontrado();
 fs.writeFileSync(
   path.join(OUT, '404.html'),
-  layout({ ...nf, path: '/404.html', services }).replace(/(href|src)="\.\.\//g, '$1="/')
+  layout({ ...nf, path: '/404.html', services }).replace(/(href|src)="\.\.\//g, `$1="${BASE}`)
+    .replace(/href="\/(contacto\/)?"/g, (m, c) => `href="${BASE}${c || ''}"`)
 );
 
 // SEO: sitemap y robots
